@@ -1,27 +1,25 @@
-# Image Caption Generator
+🖼️Project Overview
 
-## Project Status
-✅ Image Feature Extraction Completed
+This project follows the image captioning pipeline:
 
-## Project Description
-This project implements the image feature extraction stage of an Image Caption Generator using the pretrained ResNet50 model and the Flickr8k dataset.
+Input Image
+ResNet50 extracts a 2048-dimensional feature vector.
+LSTM Language Model predicts the caption word by word.
+Streamlit UI displays the uploaded image and generated caption.
 
-## Completed Work
-- Loaded pretrained ResNet50 model
-- Extracted 2048-dimensional image features
-- Saved extracted features into features.pkl
-- Successfully loaded and verified extracted features
+🧠 Technologies Used
+Python 3.11
+TensorFlow / Keras
+ResNet50
+LSTM (RNN)
+NumPy
+Pillow
+Streamlit
+Git & GitHub
 
-## Technologies Used
-- Python
-- TensorFlow/Keras
-- NumPy
-- ResNet50
-- Flickr8k Dataset
+📂 Dataset
 
-## Next Phase
-- Caption preprocessing
-- Tokenizer
-- LSTM model
-- Caption generation
-- Streamlit application
+Flickr8k Dataset
+8,092 images
+40,455 image captions
+Captions cleaned and tokenized before training
