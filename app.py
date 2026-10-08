@@ -225,7 +225,7 @@ st.markdown(
 # =====================================================
 st.subheader("📷 Sample Image")
 
-sample = Image.open("Images/1000268201_693b08cb0e.jpg")
+sample = Image.open("images/1000268201_693b08cb0e.jpg")
 
 left, center, right = st.columns([1,2,1])
 
