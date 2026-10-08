@@ -1,6 +1,4 @@
 venv/
-Images/
-images/
 features/
 __pycache__/
 *.pyc
